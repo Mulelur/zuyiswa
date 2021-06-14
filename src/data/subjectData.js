@@ -13,7 +13,7 @@ export const subjectData2 = [
   { sbj: "Social Intelligence " },
   { sbj: "Mathematics 1" },
   { sbj: "Physics 1" },
-  { sbj: "Engineering Chemistry 1" },
+  { sbj: "Electrical engineering 1" },
   { sbj: "ICT Skills" },
   { sbj: "Applied Communication 1.1" },
 ];
