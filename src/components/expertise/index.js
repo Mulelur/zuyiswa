@@ -8,6 +8,16 @@ import {
   MMContent,
   MMText,
   MMTitle,
+  MMGruopCol,
+  MMGruopContent,
+  MMGruopTitle,
+  MMGruop,
+  Title,
+  Subjects,
+  List,
+  ListItem,
+  Group,
+  Row,
 } from "./styles/expertise";
 
 export default function Expertise({ children, ...restProps }) {
@@ -40,4 +50,42 @@ Expertise.MMText = function ExpertiseMMText({ children, ...restProps }) {
 
 Expertise.MMTitle = function ExpertiseMMTitle({ children, ...restProps }) {
   return <MMTitle {...restProps}>{children}</MMTitle>;
+};
+Expertise.Title = function ExpertiseTitle({ children, ...restProps }) {
+  return <Title>{children}</Title>;
+};
+
+Expertise.List = function ExpertiseList({ children, ...restProps }) {
+  return <List>{children}</List>;
+};
+
+Expertise.ListItem = function ExpertiseListItem({ children, ...restProps }) {
+  return <ListItem>{children}</ListItem>;
+};
+
+Expertise.Subjects = function ExpertiseSubjects({ children, ...restProps }) {
+  return <Subjects>{children}</Subjects>;
+};
+
+Expertise.Group = function ExpertiseGruop({ children }) {
+  return <Group>{children}</Group>;
+};
+
+Expertise.Row = function ExpertiseRow({ children }) {
+  return <Row>{children}</Row>;
+};
+Expertise.MMGruop = function ExpertiseMMGruop({ children }) {
+  return <MMGruop>{children}</MMGruop>;
+};
+
+Expertise.MMGruopTitle = function ExpertiseMMGruopTitle({ children }) {
+  return <MMGruopTitle>{children}</MMGruopTitle>;
+};
+
+Expertise.MMGruopContent = function ExpertiseMMGruopContent({ children }) {
+  return <MMGruopContent>{children}</MMGruopContent>;
+};
+
+Expertise.MMGruopCol = function ExpertiseMMGruopCol({ children }) {
+  return <MMGruopCol>{children}</MMGruopCol>;
 };

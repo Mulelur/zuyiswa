@@ -1,26 +1,42 @@
 import React from "react";
 
 export const MMData = [
-  { day: "sunday", task: "I go to church from 10:00-12:00 " },
   {
-    day: "MONDAY ",
-    task: " I have to attend :-Mathematics 1 (09:00 -10:30), -ICT ( 12:00-14:00) ( After all the class I rest until 18:00) -18:30 I have to study Physics 1 until 20:30 -from 20:30 I have to study Mathematics 1 ",
+    IMPORTANT: {
+      URGENT: [
+        "Submission of professional profile, CV, cover letter, analytical writing essay, learning styles and brain orientation [all by 15 of September.]",
+        "Engineering Chemistry practicals every  Friday ",
+        "Physics practicals every Wednesday",
+        "Applied Communication Skills 1.1 semester 1",
+        "Physics and Maths practices every Monday",
+        "Mathematics (semester test 2 on the 7th of June 2021) ",
+        "Physics (semester test 2 on the 7th of June 2021 )",
+      ],
+      NOTURGENT: [
+        "The draft of CV, cover letter, analytical writing essay, learning styles and brain orientation",
+        "Draft of task (05/06/2021) ",
+        "Attending study group everyday by 17:00",
+        "Preparing for my practical every Sunday ",
+        "Attending church",
+        "Watching tutorial videos on YouTube whenever I come across a chapter that I do not understand",
+        "Preparing for my classes every morning ",
+        "Exercising Learning other language Reading short stories Research",
+      ],
+    },
+    NOTIMPORTANT: {
+      URGENT: [
+        "WhatsApp, Facebook and twitter",
+        "Receiving emails",
+        "Receiving party calls ",
+        "Going window shopping with friends",
+        "Having unexpected visitors",
+      ],
+      NOTURGENT: [
+        "Romantic relationship",
+        "Playing video games",
+        "Watching television",
+        "Attending parties ",
+      ],
+    },
   },
-  {
-    day: "TUESDAY ",
-    task: "I have to attend : -Physics (Mr nemalili as my lecture ) from 11:00-13:00,-having time with friends ",
-  },
-  {
-    day: "WEDNESDAY ",
-    task: "I have to attend Electrical practicals from 10:00 -12-00,- attend Mathematics 1 from 18:00-19:30",
-  },
-  {
-    day: "THURSDAY ",
-    task: "I have to attend physics 1 practicals ( Mr Thebe as my lecture) from 10:00-11:00",
-  },
-  {
-    day: "FRIDAY ",
-    task: "I have to study :-ICT (09:00-11:00),-PHYSICS(12:00-13:30),-Maths ( 14:00- 15:00) ,-engineering skills (15:00- 16:00)",
-  },
-  { day: "SATURDAY ", task: "I usually spend my time attending my hobbies" },
 ];
