@@ -14,14 +14,14 @@ export default function ExpertiseContainer() {
     <Expertise>
       <Expertise.Content>
         <Expertise.Text>
-          I am a first year student at VUT who is so busy studying a field of
-          engineering which is Electrical Engineering.
+          I vuyiswa siphoeshihle thwala, I am a student at VUT who is so busy
+          studying a field of engineering which is elecrical engineering(power).
         </Expertise.Text>
         <Expertise.Text>
-          I can go on a national scale and expand my works. As the dream started
-          from an early age, it still lives and I had made a vow to never let go
-          of my goals. I shall leave a recognizable legacy for my people and
-          with their help, move South Africa forward. That is my purpose.
+          On the other side I have my own personal project which I am doing
+          related to the innovation of an electric skateboard. I shall leave a
+          recognizable legacy for my people and with their help, move South
+          Africa forward. That is my purpose.
         </Expertise.Text>
         <Expertise.Title>My Learing style</Expertise.Title>
         <Expertise.Text>
